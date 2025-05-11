@@ -34,7 +34,7 @@ let commonPage: CommonPage;
     
     await commonPage.returnToStore();
 
-    await homeFlowerShopPage.selectProduct('Reino de sueños');
+    await homeFlowerShopPage.selectProduct('Baldado de amor');
     await productDetailsPage.addProduct(5);
 
     await cartPage.verifyCart();
