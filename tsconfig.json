@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "outDir": "./out",
+    "rootDir": ".",
+    "strict": true,
+    "paths": {
+      "@pages/*": ["./FlowerShopPages/*"] 
+    }
+  },
+  "include": ["tests/**/*", "FlowerShopPages/**/*"]
+}
